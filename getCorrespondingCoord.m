@@ -9,8 +9,8 @@ percent_Col = j / numCols;
 ii = round(percent_Row*smaller_scale_numRows);
 jj = round(percent_Col*smaller_scale_numCols);
 
-ii = max(0,ii);
-jj = max(0,jj);
+ii = max(1,ii);
+jj = max(1,jj);
 
 ii=min(ii,smaller_scale_numRows);
 jj=min(jj,smaller_scale_numCols);
