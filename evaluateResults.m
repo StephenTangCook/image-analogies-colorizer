@@ -4,7 +4,7 @@ function [ writeFileName ] = evaluateResults( imagesDir, resultsDir )
 
 %Write to file
 writeFileName = 'distances.txt';
-fid = fopen(writeFileName, 'w');
+fid = fopen(writeFileName, 'at');
 
 %Get all image files in that folder
 %Source: http://stackoverflow.com/questions/8748976/list-the-subfolders-in-a-folder-matlab-only-subfolders-not-files
@@ -58,8 +58,13 @@ for i=1:size(resultImages,1)
     fullOriginalImgPath = fullfile(imagesDir, originalName);
     fullResultsImgPath = fullfile(resultsDir, fileName);
     
-    imgA = imread(fullOriginalImgPath);
-    imgB = imread(fullResultsImgPath);
+    try
+        imgA = imread(fullOriginalImgPath);
+        imgB = imread(fullResultsImgPath);
+    catch err
+        %fprintf('SKIP\n');
+        continue;
+    end
     
     %Compare with original, write to file
     if size(imgA,1) ~= size(imgB,1) || size(imgA,2) ~= size(imgB,2)
