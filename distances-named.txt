@@ -1,0 +1,141 @@
+images\prev\bar1.jpg 
+results\prev\bar1.2NN.COLORIZED.png
+	Color Distance = 24.81
+images\prev\bar2.jpg 
+results\prev\bar2.3NN.COLORIZED.png
+	Color Distance = 19.70
+images\prev\bathroom1.jpg 
+results\prev\bathroom1.2NN.COLORIZED.png
+	Color Distance = 12.00
+images\prev\bush.jpg 
+results\prev\bush.3NN.0.COLORIZED.png
+	Color Distance = 18.25
+images\prev\bush.jpg 
+results\prev\bush.3NN.00.COLORIZED.png
+	Color Distance = 18.90
+images\prev\city.jpg 
+results\prev\city.2NN.0.COLORIZED.png
+	Color Distance = 26.46
+images\prev\city.jpg 
+results\prev\city.2NN.00.COLORIZED.png
+	Color Distance = 33.49
+images\prev\city.jpg 
+results\prev\city.2NN.COLORIZED.png
+	Color Distance = 32.53
+images\prev\city.jpg 
+results\prev\city.3NN.0.COLORIZED.png
+	Color Distance = 34.25
+images\prev\city.jpg 
+results\prev\city.3NN.COLORIZED.png
+	Color Distance = 36.95
+images\prev\city2.jpg 
+results\prev\city2.2NN.COLORIZED.png
+	Color Distance = 28.50
+images\prev\city6.jpg 
+results\prev\city6.2NN.0.COLORIZED.png
+	Color Distance = 21.45
+images\prev\city6.jpg 
+results\prev\city6.2NN.COLORIZED.png
+	Color Distance = 21.43
+images\prev\croc1.jpg 
+results\prev\croc1.2NN.COLORIZED.png
+	Color Distance = 11.33
+images\prev\croc3.jpg 
+results\prev\croc3.2NN.COLORIZED.png
+	Color Distance = 18.19
+images\prev\e2.jpg 
+results\prev\e2.3NN.COLORIZED.png
+	Color Distance = 7.98
+images\prev\e3.jpg 
+results\prev\e3.3NN.COLORIZED.png
+	Color Distance = 18.70
+images\prev\face2.jpg 
+results\prev\face2.2NN.COLORIZED.png
+	Color Distance = 15.25
+images\prev\face7.jpg 
+results\prev\face7.2NN.COLORIZED.png
+	Color Distance = 17.57
+images\prev\famous2.jpg 
+results\prev\famous2.3NN.COLORIZED.png
+	Color Distance = 21.83
+images\prev\heli4.jpg 
+results\prev\heli4.3NN.COLORIZED.png
+	Color Distance = 31.34
+images\prev\lroom3.jpg 
+results\prev\lroom3.1rand.color.png
+	Color Distance = 25.74
+images\prev\lroom3.jpg 
+results\prev\lroom3.2NN.color.png
+	Color Distance = 23.22
+images\prev\lroom3.jpg 
+results\prev\lroom3.2rand.color.png
+	Color Distance = 24.16
+images\prev\mountain1.jpg 
+results\prev\mountain1.2NN.COLORIZED.png
+	Color Distance = 20.03
+images\prev\mountain3.jpg 
+results\prev\mountain3.2NN.COLORIZED.png
+	Color Distance = 42.65
+images\prev\mountain4.jpg 
+results\prev\mountain4.3NN.COLORIZED.png
+	Color Distance = 30.55
+images\prev\mountain5.jpg 
+results\prev\mountain5.3NN.0.COLORIZED.png
+	Color Distance = 58.58
+images\prev\mountain5.jpg 
+results\prev\mountain5.3NN.COLORIZED.png
+	Color Distance = 58.45
+images\prev\mountain6.jpg 
+results\prev\mountain6.3NN.0.COLORIZED.png
+	Color Distance = 14.25
+images\prev\mountain6.jpg 
+results\prev\mountain6.3NN.COLORIZED.png
+	Color Distance = 16.87
+images\prev\obama.jpg 
+results\prev\obama.2NN.0.COLORIZED.png
+	Color Distance = 22.56
+images\prev\obama.jpg 
+results\prev\obama.2NN.00.COLORIZED.png
+	Color Distance = 17.53
+images\prev\obama.jpg 
+results\prev\obama.2NN.COLORIZED.png
+	Color Distance = 29.32
+images\prev\obama.jpg 
+results\prev\obama.3NN.0.COLORIZED.png
+	Color Distance = 29.13
+images\prev\obama.jpg 
+results\prev\obama.3NN.COLORIZED.png
+	Color Distance = 29.29
+images\prev\obama.jpg 
+results\prev\obama.4NN.COLORIZED.png
+	Color Distance = 28.10
+images\prev\ocean2.jpg 
+results\prev\ocean2.2NN.COLORIZED.png
+	Color Distance = 49.13
+images\prev\ocean3.jpg 
+results\prev\ocean3.2NN.COLORIZED.png
+	Color Distance = 45.40
+images\prev\pagoda1.jpg 
+results\prev\pagoda1.2NN.COLORIZED.png
+	Color Distance = 23.51
+images\prev\piano1.jpg 
+results\prev\piano1.3NN.COLORIZED.png
+	Color Distance = 6.13
+images\prev\piano2.jpg 
+results\prev\piano2.2NN.COLORIZED.png
+	Color Distance = 28.69
+images\prev\piano3.jpg 
+results\prev\piano3.2NN.COLORIZED.png
+	Color Distance = 16.20
+images\prev\pyramid3.jpg 
+results\prev\pyramid3.2NN.COLORIZED.png
+	Color Distance = 47.16
+images\prev\pyramid3.jpg 
+results\prev\pyramid3.3NN.COLORIZED.png
+	Color Distance = 44.26
+images\prev\pyramid4.jpg 
+results\prev\pyramid4.2NN.COLORIZED.png
+	Color Distance = 38.85
+images\prev\tower2.jpg 
+results\prev\tower2.3NN.COLORIZED.png
+	Color Distance = 33.55

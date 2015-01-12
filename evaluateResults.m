@@ -1,10 +1,12 @@
-function [ writeFileName ] = evaluateResults( imagesDir, resultsDir )
+function [ ] = evaluateResults( imagesDir, resultsDir )
 %evaluateResults Summary of this function goes here
 %   Detailed explanation goes here
 
 %Write to file
 writeFileName = 'distances.txt';
-fid = fopen(writeFileName, 'at');
+writeFileName2 = 'distances-named.txt';
+fid = fopen(writeFileName, 'w');
+fid2 = fopen(writeFileName2, 'w');
 
 %Get all image files in that folder
 %Source: http://stackoverflow.com/questions/8748976/list-the-subfolders-in-a-folder-matlab-only-subfolders-not-files
@@ -70,9 +72,13 @@ for i=1:size(resultImages,1)
     if size(imgA,1) ~= size(imgB,1) || size(imgA,2) ~= size(imgB,2)
         fprintf('Image dimensions do not match. Skipping: %s, %s\n', fullOriginalImgPath, fullResultsImgPath);
     else
-        fprintf('Evaluating %s and %s\n', fullOriginalImgPath, fullResultsImgPath);
         dist = getDistInColor(imgA, imgB);
+        fprintf('Evaluating %s and %s\n', fullOriginalImgPath, fullResultsImgPath);
         fprintf('\tColor Distance = %4.2f\n', dist);
+        
+        %Write to file2
+        fprintf(fid2, '%s \n%s\n', fullOriginalImgPath, fullResultsImgPath);
+        fprintf(fid2, '\tColor Distance = %4.2f\n', dist);
         
         if i == size(resultImages,1)%last line
             fprintf(fid, '%f', dist); % no newline
@@ -86,6 +92,7 @@ fprintf('Done.\nDistances stored in %s.\n', writeFileName);
 
 %Close file
 fclose(fid);
+fclose(fid2);
 
 end
 
