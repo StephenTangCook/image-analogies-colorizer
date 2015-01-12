@@ -17,8 +17,9 @@ slprj/
 
 .DS_Store
 images/Thumbs.db
+*Thumbs.db
 
 dataset/*
-dataset/
+#dataset/
 results/*
-results/
+#results/
