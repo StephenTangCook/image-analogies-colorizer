@@ -1,0 +1,4 @@
+'../DATASET/Caltech101_ObjectCategories/butterfly/image_0015.jpg'
+
+1: bar, bathroom, bison, car_side, city, crocodile, elephant, Faces, helicoper, livingroom, mountain, ocean, pagoda, pyramid, tower
+2: bar, city, crocodile, elephant, euphonium, Faces, grand_piano, helicopter, livingroom, mountain, ocean, pyramid, tower
