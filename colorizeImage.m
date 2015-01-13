@@ -16,6 +16,8 @@ function [ final_colorization ] = colorizeImage( inputImagePath, trainNewClassif
 %   ./classifier.mat
 
 %% Parameters
+override_category = 0;
+correct_category = 'tower';
 avg_lum = 1; %do both lum and non-lum remapping?
 useNNforExemplar = 1; %use NN to search for exemplars or random?
 %numExemplarsToUse = 2; %how many exemplar images
@@ -131,6 +133,11 @@ end
 %% Classify the input image
 labelInfo = getImageClassification(categoryClassifier, inputFileName);
 label = labelInfo.label{1};
+
+if override_category
+    label = correct_category;
+end
+
 confidence = abs(labelInfo.confidence)*100;
 fprintf('Input image classified as "%s" with %4.2f%% confidence.\n', label, confidence);
 

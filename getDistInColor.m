@@ -3,7 +3,7 @@ function [ dist ] = getDistInColor( imgA, imgB )
 %their chrominance.
 %   0% image colors identical
 %   1% slightly off color
-%   5% sections miscolored
+%   5% some sections miscolored
 %   10% significant deviation
 %   15% catastrophic failure (e.g. inverse coloring)
 
@@ -11,7 +11,7 @@ multiplier = 5;
 % With multipler = 5:
 %   0% image colors identical
 %   5% slightly off color
-%   20% sections miscolored
+%   20% some sections miscolored
 %   50% significant deviation
 %   75%+ catastrophic failure (e.g. inverse coloring)
 
