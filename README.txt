@@ -1,6 +1,4 @@
 Automatic Image Colorization Using Image Analogies
-Stephen Cook
-stcook@princeton.edu
 
 
 This framework takes a grayscale image and colorizes it.
